@@ -3,20 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
   <link rel="stylesheet" href="./style.css" />
+  <script defer src="./script.js"></script>
   <title>drag & drop</title>
 </head>
 <body>
+  <div class="content">
+    <div class="container">
+        <div class="draggable" draggable="true">
+            <span class="drag"></span>
+            <div class="el">1</div>
+        </div>
+        <div class="draggable" draggable="true">
+            <span class="drag"></span>    
+            <div class="el">2</div>
+        </div>
+        <div class="draggable" draggable="true">
+            <span class="drag"></span>
+            <div class="el">3</div>
+        </div>
+    </div>
   
-  <div id="content">
-    <div id="cardSlot"></div>
-    <div id="successMessage">
-      <h2>성공!</h2>
-      <button>다시 시도</button>
+    <div class="container">
+        <div class="draggable" draggable="true">
+            <span class="drag"></span>
+            <div class="el">4</div>
+        </div>
+        <div class="draggable" draggable="true">
+            <span class="drag"></span>
+            <div class="el">5</div>
+        </div>
+        <div class="draggable" draggable="true">
+            <span class="drag"></span>
+            <div class="el">6</div>
+        </div>
     </div>
   </div>
-
 </body>
 </html>

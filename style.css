@@ -1,0 +1,48 @@
+body, div {
+  margin: 0;
+}
+
+.content {
+  padding: 100px;
+}
+.container {
+  border-radius: 12px;
+  border-collapse: collapse;
+  padding: 20px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,.1);
+}
+.container:nth-child(n+2){
+  margin-top: 80px;
+}
+
+.draggable {
+  border: 1px solid #c5cdd7;
+  height: 82px;
+  border-radius: 12px;
+  line-height: 82px;
+  padding: 0 20px;
+  border-bottom: none;
+  background-color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.draggable:last-child {
+  border-bottom: 1px solid #c5cdd7;
+}
+.draggable.dragging {
+  opacity: .7;
+  border: 2px solid #93c2fd;
+}
+
+.el {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.drag {
+  display: inline-block;
+  vertical-align: inherit;
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+}
